@@ -1,5 +1,5 @@
 # Databricks notebook source
-jdbcHostname = "database-2.cjhvvs9p0qo8.sa-east-1.rds.amazonaws.com"
+jdbcHostname = ""
 jdbcDatabase = "boticario"
 jdbcPort = 3306
 #jdbcUrl = "jdbc:mysql://{0}:{1}/{2}?user={3}&password={4}".format(jdbcHostname, jdbcPort, jdbcDatabase, 'admin', 'adminboticario')
