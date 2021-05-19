@@ -9,7 +9,7 @@ jdbcPort = 3306
 jdbcUrl = "jdbc:mysql://{0}:{1}/{2}".format(jdbcHostname, jdbcPort, jdbcDatabase)
 connectionProperties = {
   "user" : 'admin',
-  "password" : 'adminboticario',
+  "password" : '',
   "driver" : "com.mysql.jdbc.Driver"
 }
 
