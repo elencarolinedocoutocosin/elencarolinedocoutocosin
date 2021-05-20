@@ -1,5 +1,5 @@
 # Databricks notebook source
-jdbcHostname = "database-2.cjhvvs9p0qo8.sa-east-1.rds.amazonaws.com"
+jdbcHostname = ""
 jdbcDatabase = "boticario"
 jdbcPort = 3306
 #jdbcUrl = "jdbc:mysql://{0}:{1}/{2}?user={3}&password={4}".format(jdbcHostname, jdbcPort, jdbcDatabase, 'admin', 'adminboticario')
@@ -9,7 +9,7 @@ jdbcPort = 3306
 jdbcUrl = "jdbc:mysql://{0}:{1}/{2}".format(jdbcHostname, jdbcPort, jdbcDatabase)
 connectionProperties = {
   "user" : 'admin',
-  "password" : 'adminboticario',
+  "password" : '',
   "driver" : "com.mysql.jdbc.Driver"
 }
 
@@ -110,10 +110,10 @@ display(df)
 
 import tweepy
 
-consumer_key = 'jMLXnjPgNyGjuWwxyVdPUVAQc'
-consumer_secret = '7DZ5nUDWV4ko9MS9vXTz9fBS0D1LxYXfhFlRer28a9E3bFCtpy'
-access_token = '1394719258249154561-2K1Y8PFlfwgLyocBtp4uBETTw7l78w'
-access_token_secret = 'vq6BIdVnxm3D3MCJrZjaDzej6yVYwq6sNbF4EEFDwn9bs'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 autenticar = tweepy.OAuthHandler(consumer_key, consumer_secret)
 autenticar.set_access_token(access_token, access_token_secret)
